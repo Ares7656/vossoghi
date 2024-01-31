@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ares';
+    src: url('../font/hanskendrick-regular-webfont.woff');
+}
+html{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+body {
+    font-family: 'Ares';
+    -webkit-font-smoothing: antialiased;  
+}
+li{
+    list-style-type: none;
+}
+.box{
+    filter: opacity(0);
+    transition: all ease-in-out 0.2s;
+    top: 50px;
+    left: 0px;
+}
+.NAV_ITEM1:hover .box{
+    filter: opacity(1);
+    transition: all ease-in-out 0.2s;
+    top: 70px;
+}
+.hover-orange:hover{
+    color: orangered;
+    transition: all 0.2s ease-in-out;
+}
+.hover-orange{
+    color: gray;
+    transition: all 0.2s ease-in-out;
+}
+.card,a,h1,h2,h3,h4,h5,h6{
+    font-family: 'Ares';
+    font-weight: 600;
+    line-height: 1.2;
+}
+span{
+    font-family: 'Ares';
+    font-weight: normal;
+}
+.BRIGHTNESS{
+    filter: brightness(0.65);
+}

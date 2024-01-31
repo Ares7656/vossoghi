@@ -1,0 +1,1 @@
+UIkit.slider(element).startAutoplay();
