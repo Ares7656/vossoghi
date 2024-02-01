@@ -49,3 +49,6 @@ span{
 .BRIGHTNESS{
     filter: brightness(0.65);
 }
+.w-95{
+    width: 95%;
+}
