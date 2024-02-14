@@ -63,3 +63,12 @@ span{
 .NAV_WIDTH{
     width: 100%;
 }
+.B::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 300px;
+    left: -45px;
+    bottom: 200px;
+    background: #ababab;
+}
